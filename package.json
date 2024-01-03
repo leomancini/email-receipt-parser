@@ -1,0 +1,25 @@
+{
+  "name": "email-receipt-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "email-server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "start-email": "sudo node email-server.js",
+  },
+  "type": "module",
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "mailparser": "^3.6.5",
+    "mongodb": "^6.3.0",
+    "mongoose": "^7.6.3",
+    "openai": "^4.24.1",
+    "smtp-server": "^3.13.0"
+  }
+}
